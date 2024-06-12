@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Liên hệ | Racing 43 Shop</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./Images/logo.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <script src="./JS/js.js"></script>
+</head>
+<style>
+    .gmap {
+        width: 100%;
+        height: 50%;
+    }
+    
+    iframe {
+        border-radius: 7px;
+    }
+    
+    .welcome .col-12 .display-4 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .required {
+        color: #f00;
+    }
+    
+    .form-control {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555555;
+        background-color: #ffffff;
+    }
+    
+    .gui {
+        background: #696969;
+        border: none;
+        font-size: 16px;
+        margin: 10px 0 0 10px;
+    }
+    
+    .gui:hover {
+        background: #808080;
+    }
+    
+    input,
+    textarea {
+        opacity: 0.8;
+    }
+</style>
+
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header class="fixed-top">
+        <!-- HEADER -->
+        <div class="container-fluid">
+            <a href="./index.html"><img src="./Images/logo.png" class="logo"></a>
+            <div class="add">
+                <a style="text-decoration: none;" href="./index.html">
+                    <h1>Shop Đồ Kiểng Xe Online</h1>
+                </a>
+                <a style="text-decoration: none;" href="./index.html">
+                    <h2>Nơi An Tâm Mua Đồ Chơi Xe Online</h2>
+                </a>
+                <form>
+                    <input style="color: #000000;" class="search" type="search" placeholder="Tìm kiếm sản phẩm...">
+                    <button type="submit" class="icon_search"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="dia_chi">
+                <a href="tel:0941547945"><img src="./Images/hotline.png" class="hotline"></a>
+                <div class="map">
+                    <a style="text-decoration: none; color: #ffffff;" href="https://www.google.com/maps/place/Racing+43+Shop/@15.9802975,108.2367757,230m/data=!3m2!1e3!4b1!4m5!3m4!1s0x31421bd1538be79d:0x463742589cf6751b!8m2!3d15.9802962!4d108.2373242" target="_blank">Cơ sở 1: Khái Tây 1</a><br>
+                    <a style="text-decoration: none; color: #ffffff;" href="https://www.google.com/maps/place/Racing+43+Shop/@16.0212324,108.2473689,230m/data=!3m2!1e3!4b1!4m5!3m4!1s0x31421760c509dff3:0x424146dc28d20b07!8m2!3d16.0212311!4d108.2479174" target="_blank">Cơ sở 2: Kiệt 219 Nguyễn Đình Chiểu</a>
+                </div>
+                <img src="./Images/icon_map.png" class="icon_map">
+            </div>
+        </div>
+        <!-- NAVIGATION -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Trang chủ</a>
+            <a href="gioithieu.html">Giới thiệu</a>
+            <a href="sanpham.html">Sản phẩm</a>
+            <a href="dichvu.html">Dịch vụ</a>
+            <a href="http://facbook.com/Racing43Shop/">Fanpage</a>
+            <a href="lienhe.html" class="active">Liên hệ</a>
+            <a href="hotro.html">Hỗ trợ</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <!-- CONTENT -->
+    <div style="margin-top: 210px;" class="container">
+        <div class="gmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.6373970617406!2d108.23513015048314!3d15.98030134600515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421bd1538be79d%3A0x463742589cf6751b!2sRacing%2043%20Shop!5e0!3m2!1svi!2s!4v1621177137534!5m2!1svi!2s"
+                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+        </div>
+        <div style="margin-top: 30px;" class="col-md-8">
+            <div class="row welcome">
+                <div class="col-12">
+                    <h1 class="display-4">GỬI MAIL CHO CHÚNG TÔI</h1>
+                </div>
+                <hr style="margin-left: 20px;">
+            </div>
+            <form class="clearfix mt50">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name" accesskey="U"><span class="required">*</span> Họ và tên</label>
+                            <input name="name" type="text" id="name" required class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email" accesskey="E"><span class="required">*</span> E-mail</label>
+                            <input name="email" type="text" required id="email" value="" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="subject" accesskey="S"><span class="required">*</span> Tiêu đề</label>
+                    <input name="title" type="text" required id="title" value="" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="comments" accesskey="C"><span class="required">*</span> Nội dung</label>
+                    <textarea name="message" rows="9" id="message" required class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger gui">Gửi tin nhắn</button>
+            </form>
+        </div>
+        <div style="margin-top: 30px;" class="col-md-4">
+            <div class="row welcome">
+                <div class="col-12">
+                    <h1 class="display-4">THÔNG TIN LIÊN HỆ</h1>
+                </div>
+                <hr style="margin-left: 20px;">
+            </div>
+            <div style="text-align: center;"><span style="color:rgb(255, 0, 0)"><span style="font-size:xx-large; font-family: 'KoHo';"><strong>RACING 43 SHOP</strong></span></span>
+            </div>
+            <div style="text-align: justify; font-size: 12pt;"><br />
+                <p><strong>Cơ sở 1:</strong>&nbsp;Khái Tây 1, Quận Ngũ Hành Sơn, Tp Đà Nẵng <br> Điện thoại: 0765 948 435</p>
+            </div>
+            <div style="text-align: justify; font-size: 12pt;">
+                <p><strong>Cơ sở 2:&nbsp;</strong>Kiệt 219 Nguyễn Đình Chiểu, Quận Ngũ Hành Sơn, Tp Đà Nẵng <br> Điện thoại : 0796 258 950</p>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div style="background: #292929; font-size: 20px; width: 100%; height: auto; margin-top: 20px;" class="container-fluid">
+        <div class="col-xs-12 col-sm-6">
+            <div style="padding-top: 10px;" class="col-md-5">
+                <a class="racing43" href="./index.html">Racing 43 Shop</a>
+                <p class="title">Nơi an tâm mua đồ chơi xe online</p>
+                <div style="padding-left: 0;" class="col-xs-10">
+                    <p class="detail">Chúng tôi luôn làm việc với sự quyết tâm hoàn thành công việc cao nhất bằng sự tận tụy và luôn giữ chữ "Tín" đối với khách hàng.</p>
+                </div>
+            </div>
+            <div class="pd-top30 col-md-2">
+                <p class="links">Liên kết</p>
+                <a class="link" href="./index.html">Trang chủ</a>
+                <a class="link" href="./gioithieu.html">Giới thiệu</a>
+                <a class="link" href="./dichvu.html">Dịch vụ</a>
+                <a class="link" href="hotro.html">Hỗ trợ</a>
+            </div>
+            <div style="padding-right: 0; padding-left: 30px; padding-top: 30px;" class="col-md-5">
+                <p style="font-family: 'KoHo'; color: red; font-weight: bold;">Thông tin liên hệ</p>
+                <p class="text">Racing 43 Shop</p>
+                <p class="text">Khái Tây 1, tp Đà Nẵng</p>
+                <p class="text">Kiệt 219 Nguyễn Đình Chiểu, tp Đà Nẵng</p>
+                <p class="text">Phone: 0765 948 435</p>
+                <p class="text">Fax: 0796 258 950</p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <div style="padding-top: 30px;" class="col-md-6">
+                <p style="font-family: 'KoHo'; color: red; font-weight: bold;">Fanpage</p>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRacing43Shop%2F&tabs=timeline&width=320&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="320" height="130"
+                    style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div style="padding-top: 30px;" class="col-md-6">
+                <p style="font-family: 'KoHo'; color: red; font-weight: bold;">Đăng ký nhận bảng tin của chúng tôi</p>
+                <form>
+                    <input class="email" id="email" type="email" required placeholder="Địa chỉ email..." width="300px"> <br>
+                    <button class="submit" type="submit" value="Check" onclick="checkEmail();">Đăng ký</button>
+                </form>
+                <p style="margin-top: 10px;">Kết nối với chúng tôi</p>
+                <i class="fab fa-facebook-square social fa-2x"></i>
+                <i class="fab fa-instagram-square social fa-2x"></i>
+                <i class="fab fa-twitter-square social fa-2x"></i>
+                <i class="fab fa-linkedin social fa-2x"></i>
+            </div>
+        </div>
+    </div>
+    <!-- COPPYRIGHT -->
+    <div style="background: #000; color: #706f6f; width: 100%; height: auto; padding: 10px 0;" class="container-fluid">
+        <div style="text-align: center;" class="col-xs-12 col-sm-10 col-md-4">
+            <a class="tel" href="tel:07765948435"><i class="fa fa-phone"></i> +84 765 948 435</a> &emsp;
+            <a class="mailto" href="mailto:ngothanhphatqs@gmail.com"><i class="fa fa-envelope"></i> ngothanhphatqs@gmail.com</a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-5">Coppyright©2021 Racing 43 Shop All Rights Reserved | Designed by Ngo Thanh Phat</div>
+        <div style=" text-align: center;" class="col-xs-12 col-md-2">
+            <i class="fab fa-facebook-f"></i>&emsp;
+            <i class="fab fa-twitter"></i>&emsp;
+            <i class="fab fa-linkedin-in"></i>&emsp;
+            <i class="fab fa-dribbble"></i>&emsp;
+            <i class="fab fa-google-plus-g"></i>
+        </div>
+    </div>
+</body>
